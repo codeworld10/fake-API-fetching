@@ -26,7 +26,7 @@ const Products = () => {
                 source={{ uri: item.image }}
                 style={{ width: 200, height: 200, resizeMode: "contain", }}
               />
-              <Text>{item.title}</Text>
+              <Text style={{paddingHorizontal:20, paddingVertical:10, fontSize:17}}>{item.title}</Text>
               <Text style={{fontWeight:"bold", fontSize:16, paddingVertical:10}}>${item.price}</Text>
               <View style={{paddingVertical:10}}>
               <TouchableOpacity style={{backgroundColor:"grey", paddingVertical:8, paddingHorizontal:10, color:"white", borderRadius:5}}>
